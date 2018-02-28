@@ -1,4 +1,14 @@
-Postman Code.
+Install Newman Plugin.
+
+1) Install NodeJs (https://nodejs.org/en/)
+2) Install newman
+   npm install -g newman
+
+Run Postman code with newman plugin.
+
+newman run Dummy.postman_collection.json -e Dummy.postman_environment.json
+
+Postman Code. 
 
 //Verify Status Code
 pm.test("Status code is 200", function () {
