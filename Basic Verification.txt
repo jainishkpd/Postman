@@ -73,4 +73,7 @@ git add "Dummy.json"
 
 git commit -m "Change in next"
 
+git checkout -- file
+
+git checkout origin/master Basic Verification.txt
 
