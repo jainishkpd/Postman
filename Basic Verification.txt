@@ -1,4 +1,4 @@
-Install Newman Plugin.
+Next Install Newman Plugin.
 
 1) Install NodeJs (https://nodejs.org/en/)
 2) Install newman
