@@ -1,4 +1,4 @@
-Install Newman Plugin.
+Install Newman Plugin -.
 
 1) Install NodeJs (https://nodejs.org/en/)
    Set Environment variable path.
