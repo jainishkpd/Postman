@@ -1,6 +1,10 @@
 Install Newman Plugin.
 
 1) Install NodeJs (https://nodejs.org/en/)
+   Set Environment variable path.
+   variable name = path
+   path = C:\Program Files\nodejs\node_modules\npm\bin
+
 2) Install newman
    npm install -g newman
 
