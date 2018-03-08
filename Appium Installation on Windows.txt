@@ -16,3 +16,6 @@ Appium Installation on windows machine.
     Download link :-  http://appium.io/downloads.html
 		e.g. Download Java Client library link :- https://search.maven.org/#search%7Cga%7C1%7Cg%3Aio.appium%20a%3Ajava-client (Click on jar link)
 		e.g. Download Appium Desktop App link :- https://github.com/appium/appium-desktop/releases/tag/v1.4.1 (Click on appium-desktop-Setup-1.4.1-ia32.exe)
+
+4)  Install .net framework
+    Download link :- https://www.microsoft.com/en-in/download/details.aspx?id=30653
