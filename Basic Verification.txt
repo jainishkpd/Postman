@@ -1,4 +1,4 @@
-Install Newman Plugin.
+Install Newman Plugin..
 
 1) Install NodeJs (https://nodejs.org/en/)
    Set Environment variable path.
@@ -91,3 +91,11 @@ git checkout -- file
 
 git checkout origin/master Basic Verification.txt
 
+
+Jenkins with Postman
+---------------------------
+Generate only html report
+newman run "D:\RND\Jenkins\Jenkins_Home\workspace\Postman\Dummy.postman_collection.json" -e "D:\RND\Jenkins\Jenkins_Home\workspace\Postman\Dummy.postman_environment.json" --reporters html 
+
+Generate html report with Json & xml file for entire collection.
+newman run "D:\RND\Jenkins\Jenkins_Home\workspace\Postman\Dummy.postman_collection.json" -e "D:\RND\Jenkins\Jenkins_Home\workspace\Postman\Dummy.postman_environment.json" -r html,cli,json,junit
