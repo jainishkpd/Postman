@@ -7,6 +7,8 @@ Appium Installation on windows machine.
 					 
 2)  Install Android Studio Tools and set environment path for android
     - path :- (ANDROID_HOME / C:\Program Files (x86)\Android\android-sdk)
+		       :- (Path / C:\Program Files (x86)\Android\android-sdk\tools)
+					 :- (Path / C:\Program Files (x86)\Android\android-sdk\platform-tools)
       Download link :- https://dl.google.com/android/installer_r24.4.1-windows.exe?utm...androiddevtools...
     - Install only required packages.
 		- Install intel haxm grahics driver
