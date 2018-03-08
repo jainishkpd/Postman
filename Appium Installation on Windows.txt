@@ -1,4 +1,4 @@
-Appium Installation on windows machine.
+Appium Installation on windows machine. 
 
 1)  Install Java and set environment variable path
     - path :- (JAVA_HOME / C:\Program Files\Java\jdk1.8.0_161)
