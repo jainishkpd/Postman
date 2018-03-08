@@ -2,13 +2,13 @@ Appium Installation on windows machine.
 
 1)  Install Java and set environment variable path
     - path :- (JAVA_HOME / C:\Program Files\Java\jdk1.8.0_161)
-		       :- (JRE_HOME / C:\Program Files\Java\jdk1.8.0_161)
-					 :- (Path / C:\Program Files\Java\jdk-9.0.1\bin)
+           :- (JRE_HOME / C:\Program Files\Java\jdk1.8.0_161)
+	   :- (Path / C:\Program Files\Java\jdk-9.0.1\bin)
 					 
 2)  Install Android Studio Tools and set environment path for android
     - path :- (ANDROID_HOME / C:\Program Files (x86)\Android\android-sdk)
-		       :- (Path / C:\Program Files (x86)\Android\android-sdk\tools)
-					 :- (Path / C:\Program Files (x86)\Android\android-sdk\platform-tools)
+	   :- (Path / C:\Program Files (x86)\Android\android-sdk\tools)
+	   :- (Path / C:\Program Files (x86)\Android\android-sdk\platform-tools)
       Download link :- https://dl.google.com/android/installer_r24.4.1-windows.exe?utm...androiddevtools...
     - Install only required packages.
 		- Install intel haxm grahics driver
@@ -16,8 +16,8 @@ Appium Installation on windows machine.
 			
 3)  Install Appium Desktop app/Appium Server and Appium Client Libraries
     Download link :-  http://appium.io/downloads.html
-		e.g. Download Java Client library link :- https://search.maven.org/#search%7Cga%7C1%7Cg%3Aio.appium%20a%3Ajava-client (Click on jar link)
-		e.g. Download Appium Desktop App link :- https://github.com/appium/appium-desktop/releases/tag/v1.4.1 (Click on appium-desktop-Setup-1.4.1-ia32.exe)
+		      e.g. Download Java Client library link :- https://search.maven.org/#search%7Cga%7C1%7Cg%3Aio.appium%20a%3Ajava-client (Click on jar link)
+		      e.g. Download Appium Desktop App link :- https://github.com/appium/appium-desktop/releases/tag/v1.4.1 (Click on appium-desktop-Setup-1.4.1-ia32.exe)
 
 4)  Install .net framework
     Download link :- https://www.microsoft.com/en-in/download/details.aspx?id=30653
