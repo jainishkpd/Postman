@@ -23,3 +23,21 @@ Appium Installation on windows machine.
 
 4)  Install .net framework
     Download link :- https://www.microsoft.com/en-in/download/details.aspx?id=30653
+
+
+Attached Your Real Device -> Enable Developer Option -> Enable USB Debugging
+
+Open Appium Server.
+
+Attached your real device through USB -> Open Windows Terminal -> adb devices
+
+Get the Device ID.
+
+----------------------------------------
+
+UI AUTOMATOR THROUGH APPIUM SERVER
+
+platformName   - Android
+deviceName     - Pass deviceID or Device Name
+appPackage     - app package name
+appActivity    - Inner app activity name
