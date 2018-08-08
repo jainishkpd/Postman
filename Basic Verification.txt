@@ -91,6 +91,22 @@ git checkout -- file
 
 git checkout origin/master Basic Verification.txt
 
+//Unset git user name and email
+git config --global --unset user.name
+git config --global --unset user.email
+
+//Set git user name and email
+git config --global user.name "your username"
+git config --global user.email "your email"
+
+git config -l
+
+//Showing updated lines in file. 
+git diff
+
+//Dont want to commit but taking some pull request from branch
+git stash
+
 
 Jenkins with Postman
 ---------------------------
