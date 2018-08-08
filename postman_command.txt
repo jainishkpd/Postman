@@ -1,0 +1,1 @@
+newman run "D:\RND\Jenkins\Jenkins_Home\workspace\Postman\Dummy.postman_collection.json" -e "D:\RND\Jenkins\Jenkins_Home\workspace\Postman\Dummy.postman_environment.json" --disable-unicode --color -k -r cli,html,json
