@@ -1,1 +1,38 @@
-newman run "D:\RND\Jenkins\Jenkins_Home\workspace\Postman\Dummy.postman_collection.json" -e "D:\RND\Jenkins\Jenkins_Home\workspace\Postman\Dummy.postman_environment.json" --disable-unicode --color -k -r cli,html,json
+Install node Js & configure the NPM package: https://nodejs.org/en/download/
+Install the newman package globally.
+	npm install -g newman
+	npm install -g newman-reporter-html
+	npm install -g newman-reporter-htmlfull
+	npm install -g newman-reporter-htmlextra
+	npm install -S newman-reporter-htmlextra
+	npm install -g reporter
+execute command below from where your postman collections are available, so it will generate multiple format reports. Generally I prefer this command to generate report.
+newman run Dummy.postman_collection.json -e Dummy.postman_environment.json -r htmlextra
+
+Report display only failed cases
+newman run Dummy.postman_collection.json -e Dummy.postman_environment.json -r htmlextra --reporter-htmlextra-showOnlyFails
+
+Report display with each test with pagination
+newman run Dummy.postman_collection.json -e Dummy.postman_environment.json -r htmlextra --reporter-htmlextra-testPaging
+
+Report display with custom browser page title
+newman run Dummy.postman_collection.json -e Dummy.postman_environment.json -r htmlextra --reporter-htmlextra-browserTitle "Jainish Kapadia"
+
+Report display with custom project name
+newman run Dummy.postman_collection.json -e Dummy.postman_environment.json -r htmlextra --reporter-htmlextra-title "ROC Run Dashboard"
+
+Report display with console log statements
+newman run Dummy.postman_collection.json -e Dummy.postman_environment.json -r htmlextra --reporter-htmlextra-logs
+
+If you want to generate some more reports, then you can execute below commands.
+
+newman run Dummy.postman_collection.json -e Dummy.postman_environment.json -r cli,html,json
+newman run Dummy.postman_collection.json -e Dummy.postman_environment.json -r cli,html,json --reporter-html-template colored-template.hbs
+
+Website reference:
+
+https://www.softwaretestinghelp.com/newman-reporting-templates/
+https://github.com/DannyDainton/newman-reporter-htmlextra
+https://www.npmjs.com/package/newman-reporter-htmlextra
+https://medium.com/younited-tech-blog/generate-automated-test-reports-using-postman-b9c8cd53b955
+
